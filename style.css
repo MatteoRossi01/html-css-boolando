@@ -1,0 +1,34 @@
+.container {
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.img1, .img2{
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+}
+
+.product {
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+}
+
+.img2 {
+    visibility: hidden;
+}
+
+.product:hover .img2 {
+    visibility: visible;
+}
+
+
+
+
+
+
