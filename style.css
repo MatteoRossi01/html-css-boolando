@@ -1,22 +1,24 @@
+
 .container {
-    height: 400px;
-    width: 50%;
+    width: 55%;
     margin: auto;
+    position: relative;
+}
+/* Inizio sezione gestione foto */
+ .product {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    margin-top: 15px;
+    display: block;
 }
 
-
 .img1, .img2{
-    height: 350px;
+    width: 100%;
+    height: 85%;
     position: absolute;
     top: 0px;
     display: inline-block;
-}
-
-.product {
-    height: 350px;
-    display: inline-block;
-    position: relative;
-    margin-top: 15px;
 }
 
 .img2 {
@@ -26,9 +28,82 @@
 .product:hover .img2 {
     visibility: visible;
 }
+/* Fine sezione gestione foto */
+
+/* Inizio sezione Discount*/
+.info-discount {
+    position: absolute;
+    left: 0px;
+    bottom: 65px;
+    z-index: 1;
+}
+
+.discount, .sostenibilità {
+    font-size: 10px;
+    font-family:  sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border: 0px;
+    padding: 3px 3px;
+}
+
+.discount {
+    background-color: #ff0000;
+}
+
+.sostenibilità {
+    background-color: #108d42;
+    margin-left: 3px;
+}
+/* Fine sezione Discount */
 
 
+/* Inizio sezione info */
+.brand {
+    position: absolute;
+    bottom: 35px;
+    font-size: 9px;
+    font-family:  sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    color: 	#808080;
+}
 
+.name {
+    position: absolute;
+    bottom: 21px;
+    font-size: 14px;
+    font-family:  sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 
+.price1, .price2 {
+    position: absolute;
+    bottom: 12px;
+    font-size: 9px;
+    font-family:  sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 
+.price1 {
+    color: #ff0000;
+}
 
+.price2 {
+    color: 	#808080;
+    position: absolute;
+    left: 35px;
+    text-decoration: line-through;
+}
+/* Fine sezione info */
+
+/* Tasto "mi piace" */
+ .product .heart {
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 2;
+    background-color: #fff;
+}
+/* Tasto "mi piace" */
