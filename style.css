@@ -10,7 +10,8 @@
     height: 350px;
     position: relative;
     margin-top: 15px;
-    display: block;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .img1, .img2{
@@ -38,7 +39,7 @@
     z-index: 1;
 }
 
-.discount, .sostenibilità {
+.discount, .sostenibilità, .sostenibilità-6 {
     font-size: 10px;
     font-family:  sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -52,8 +53,13 @@
 }
 
 .sostenibilità {
-    background-color: #108d42;
+    background-color: #028759;
     margin-left: 3px;
+}
+
+.sostenibilità-6 {
+    background-color: #028759;
+    margin-left: 0px;
 }
 /* Fine sezione Discount */
 
@@ -75,7 +81,7 @@
     font-weight: bold;
 }
 
-.price1, .price2 {
+.price-red, .price-gray {
     position: absolute;
     bottom: 12px;
     font-size: 9px;
@@ -83,11 +89,11 @@
     font-weight: bold;
 }
 
-.price1 {
+.price-red {
     color: #ff0000;
 }
 
-.price2 {
+.price-gray {
     color: 	#808080;
     position: absolute;
     left: 35px;
